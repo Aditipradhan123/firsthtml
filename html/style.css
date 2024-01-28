@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: auto; 
+    /* width: 90%;
+    background-size: cover;
+    background-position: center;
+    margin: auto ; */
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.head {
+    background-image: url(./images/images1.png);
+    /* width: 93%; */
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: black;
+    position: relative;
+}
+
+.body {
+    /* width: 93%; */
+    height: 650px;
+    background-color: rgb(243, 232, 217);
+    padding: 50px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: rgb(15, 15, 37);
+    /* width: 93%; */
+    height: 300px;
+    color: white;
+    padding: 50px;
+}
+
+.head .paragraph {
+    padding-left: 5px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    font-size: 20px;
+    width: 50%;
+
+
+}
+
+.head h1 {
+    font-size: 50px;
+    padding: 5px;
+    /* margin-top: 9%; */
+    color: orange;
+    letter-spacing: 2px;
+}
+
+.body .left {
+    width: 50%;
+}
+
+.body .left .paragraph {
+    padding-left: 5px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.body .left h1 {
+    font-size: 50px;
+    padding: 5px;
+    /* margin-top: 9%; */
+    color: orange;
+    letter-spacing: 2px;
+}
+
+.body .right {
+    width: 50%;
+    /* background-image: url(download1.png); */
+
+}
+
+.body .right img {
+    width: 100%;
+    height: 100%;
+}
+
+
+button {
+    width: 160px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: white;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    margin: 10px 0px 10px;
+    border-radius: 10px;
+}
+.lfooter{
+    background-color: rgb(228, 219, 208);
+}
+.lfooter h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.icondiv{
+    font-size: 70px;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+}
+.h2div{
+    display: flex;
+    justify-content: center;
+}
+.pdiv{
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+}
+.buttondiv{
+    display: flex;
+    justify-content: center;
+}
+.top{
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.topfirst, .topsecond, .topthird{
+    background-color:white;
+    height: 400px;
+    width: 25%;
+    border-radius: 5px;
+    box-shadow: 20px; 
+    padding: 5px;
+}
+.topfirst{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.topfirst:hover{
+    background-color: navy;
+    color: white; 
+}
+.topsecond{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.topsecond:hover{
+    background-color: navy;
+    color: white; 
+}
+.topthird{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.topthird:hover{
+    background-color: navy;
+    color: white; 
+}
+.buttomfirst, .buttomsecond, .buttomthird{
+    background-color:white;
+    height: 400px;
+    width: 25%;
+    border-radius: 5px;
+    box-shadow: 20px; 
+    padding: 5px;
+}
+.buttomfirst{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buttomfirst:hover{
+    background-color: navy;
+    color: white; 
+}
+.buttomsecond{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buttomsecond:hover{
+    background-color: navy;
+    color: white; 
+}
+.buttomthird{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buttomthird:hover{
+    background-color: navy;
+    color: white; 
+}
+.topbuttom{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
